@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>DomainNotificationHelper</id>
+        <version>1.0.0</version>
+        <title>DomainNotificationHelper</title>
+        <authors>andrebaltieri</authors>
+        <owners>André Baltieri</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This package will help you to implement Domain Event/Notification on your .NET DDD projects</description>
+        <language>en-US</language>
+    </metadata>
+    <files>
+        <file src="..\src\bin\Release\DomainNotificationHelper.dll" target="lib\DomainNotificationHelper.dll" />
+    </files>
+</package>
