@@ -39,6 +39,7 @@
     <Compile Include="Events\DomainEvent.cs" />
     <Compile Include="Events\DomainNotification.cs" />
     <Compile Include="Exceptions\RaiseEventException.cs" />
+    <Compile Include="Handlers\DomainNotificationHandler.cs" />
     <Compile Include="IContainer.cs" />
     <Compile Include="IHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
