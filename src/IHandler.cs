@@ -9,5 +9,6 @@ namespace DomainNotificationHelper
         void Handle(T args);
         IEnumerable<T> Notify();
         bool HasNotifications();
+        void Clear();
     }
 }
