@@ -36,5 +36,10 @@ namespace DomainNotificationHelper.Handlers
         {
             return _notifications;
         }
+        
+        public void Clear()
+        {
+            GetValue().Clear();
+        }
     }
 }
